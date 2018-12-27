@@ -16,7 +16,7 @@ threshold = 30
 ```
 topicname = SslCertCheckSnsTopic
 ```
-<b>threshold is in days you want notification </b>
+<b>threshold is in days you want notification </b><br>
 <b>topicname should be the sns topic name </b>
 
 ### Required Environment Varible
@@ -28,7 +28,7 @@ domainname = domain1.com,domain2.com
 ```
 email = mailid@example.com,mainid2@example.com
 ```
-<b> email of subscriber to get notification of ssl expiration </b>
+<b> email of subscriber to get notification of ssl expiration </b><br>
 <b> domainname to check ssl expiry </b>
 
 ### Running Terraform
