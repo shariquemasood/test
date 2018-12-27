@@ -16,8 +16,8 @@ threshold = 30
 ```
 topicname = SslCertCheckSnsTopic
 ```
-<b>threshold is in days you want notification </b><br>
-<b>topicname should be the sns topic name </b>
+<b>threshold</b> is in days you want notification <br>
+<b>topicname</b> should be the sns topic name
 
 ### Required Environment Varible
 The required environment varinle to pass in lambda function. we can pass multiple value as a comma seprated list
@@ -28,8 +28,8 @@ domainname = domain1.com,domain2.com
 ```
 email = mailid@example.com,mainid2@example.com
 ```
-<b> email of subscriber to get notification of ssl expiration </b><br>
-<b> domainname to check ssl expiry </b>
+<b> email</b> of subscriber to get notification of ssl expiration<br>
+<b> domainname</b> to check ssl expiry
 
 ### Running Terraform
 Apply Terraform
